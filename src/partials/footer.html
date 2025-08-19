@@ -1,15 +1,44 @@
-<footer class="footer">
+<footer id="footer" class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    <div class="footer-top">
+      <div class="left-content">
+        <load src="/partials/logo.html" list-class="footer-logo" />
+        <address>
+          <ul class="address-list">
+            <li class="address-item">
+              <p class="address-label">Phone number:</p>
+              <a href="tel:380684439426" class="address-link"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+            <li class="address-item">
+              <p class="address-label">Address:</p>
+              <a
+                href="https://maps.app.goo.gl/CmQt287RTRebfL1c6"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="address-link"
+                >32a M. Bazhana ave</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div>
+        <nav>
+          <load src="/partials/nav-list.html" list-class="nav-list" />
+        </nav>
+      </div>
+      <div>
+        <load src="/partials/socials.html" />
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy;2023 English Excellence. All rights reserved.</p>
+      <div class="footer-policy">
+        <a href="#" class="policy-link">Privacy Policy</a>
+        <a href="#" class="policy-link">Terms of Service</a>
+      </div>
+    </div>
   </div>
 </footer>
